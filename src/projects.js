@@ -7,8 +7,8 @@ export const projects = [
   },
   {
     title: "Full Stack Library System",
-    description: "FastApi + OAuth2 + PostgreSQL + CSS/HTML + ReactJS",
-    href: "https://github.com/Mosayaqoobi/library-management-system",
+    description: "JS + mongoDB + ExpressJS + NodeJS + ReactJS",
+    href: "https://github.com/Mosayaqoobi/mock-library",
     image: "",
   },
   {
