@@ -1,9 +1,13 @@
-function Card({ title, description, skills, href }) {
+function ExperienceCard({ title, company, location, period, description, skills, href }) {
   const content = (
     <div className="experience-card">
       <div className="experience-header">
         <div>
           <h3>{title}</h3>
+          <p className="experience-company">{company}</p>
+          <p className="experience-meta">
+            {location} • {period}
+          </p>
         </div>
       </div>
       <p className="experience-description">{description}</p>
@@ -30,4 +34,5 @@ function Card({ title, description, skills, href }) {
   return content;
 }
 
-export default Card;
+export default ExperienceCard;
+

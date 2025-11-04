@@ -4,8 +4,8 @@ function Hero() {
       <div className="hero-inner">
         <h1 className="hero-title">Mosa Yaqoobi</h1>
         <p className="hero-tagline">
-          Computer science Student actively looking to gain experience in any
-          field of algorithms, AI/ML, and software engineering
+        Computer Science student passionate about building scalable software, 
+        solving complex algorithmic problems, and exploring AI/ML applications.
         </p>
         <div className="hero-actions">
           <a className="btn" href="#contact">

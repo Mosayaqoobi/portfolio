@@ -5,8 +5,7 @@ function ProjectSection() {
   return (
     <section id="projects" className="sections">
       <h2>Projects</h2>
-      <div className="grid">
-        {" "}
+      <div className="experience-grid">
         {projects.map((p) => (
           <Card key={p.title} {...p} />
         ))}
